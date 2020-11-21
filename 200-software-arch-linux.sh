@@ -70,9 +70,9 @@ done
 func_category Development
 
 list=(
-code
 meld
 sublime-text-dev
+visual-studio-code-bin
 )
 
 count=0
@@ -152,6 +152,8 @@ func_category System
 list=(
 dconf-editor
 arc-gtk-theme
+zsh
+gnome-keyring
 )
 
 count=0
