@@ -70,7 +70,7 @@ done
 func_category Development
 
 list=(
-atom
+code
 meld
 sublime-text-dev
 )
@@ -175,6 +175,21 @@ uudeview
 arj
 cabextract
 file-roller
+)
+
+count=0
+for name in "${list[@]}" ; do
+	count=$[count+1]
+	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
+	func_install $name
+done
+
+###############################################################################
+
+func_category Security
+
+list=(
+keepassxc
 )
 
 count=0
