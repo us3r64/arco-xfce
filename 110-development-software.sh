@@ -54,9 +54,13 @@ meld
 the_platinum_searcher-bin
 telegram-desktop
 discord
+slack
 simplescreenrecorder
 scrot
 insomnia-bin
+go
+docker
+docker-compose
 )
 
 count=0
@@ -69,8 +73,16 @@ done
 
 ###############################################################################
 
+tput setaf 5;echo "################################################################"
+echo "Enabling docker service, run as current user"
+echo "################################################################"
+echo;tput sgr0
+sudo systemctl enable docker.service -f
+sudo groupadd docker
+sudo usermod -aG docker $USER
+
 tput setaf 11;
 echo "################################################################"
-echo "Software has been installed"
+echo "Software has been installed, Reboot your system"
 echo "################################################################"
 echo;tput sgr0

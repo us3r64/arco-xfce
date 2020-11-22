@@ -54,6 +54,11 @@ arcolinux-wallpapers-git
 xfce4
 xfce4-goodies
 arcolinux-logout-git
+zsh
+zsh-completions
+zsh-syntax-highlighting
+arcolinux-zsh-git
+yay -S oh-my-zsh-git
 )
 
 count=0
@@ -84,6 +89,12 @@ echo "Removing packages we do not want"
 echo "################################################################"
 echo;tput sgr0
 sudo pacman -R xfce4-artwork xfce4-screensaver --noconfirm
+
+tput setaf 5;echo "################################################################"
+echo "Switching to Zsh"
+echo "################################################################"
+echo;tput sgr0
+sudo chsh $USER -s /bin/zsh
 
 tput setaf 7;echo "################################################################"
 echo "You now have a very minimal functional desktop"

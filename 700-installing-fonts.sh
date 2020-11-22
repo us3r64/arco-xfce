@@ -69,6 +69,7 @@ ttf-liberation
 ttf-roboto
 ttf-ubuntu-font-family
 tamsyn-font
+ttf-fira-code
 )
 
 count=0

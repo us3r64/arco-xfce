@@ -73,6 +73,8 @@ list=(
 meld
 sublime-text-dev
 visual-studio-code-bin
+alacritty
+tmux
 )
 
 count=0
@@ -152,7 +154,6 @@ func_category System
 list=(
 dconf-editor
 arc-gtk-theme
-zsh
 gnome-keyring
 )
 
