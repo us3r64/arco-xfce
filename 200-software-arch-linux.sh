@@ -193,6 +193,7 @@ func_category Security
 
 list=(
 keepassxc
+restic
 )
 
 count=0
