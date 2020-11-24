@@ -70,6 +70,8 @@ ttf-roboto
 ttf-ubuntu-font-family
 tamsyn-font
 ttf-fira-code
+ttf-fira-sans
+ttf-fira-mono
 )
 
 count=0
