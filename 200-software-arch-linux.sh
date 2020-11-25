@@ -108,6 +108,9 @@ func_category Internet
 list=(
 chromium
 qbittorrent
+vivaldi-ffmpeg-codecs
+vivaldi-widevine
+vivaldi
 )
 
 count=0
